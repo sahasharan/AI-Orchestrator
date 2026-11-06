@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Large model file (keep locally; do not commit to GitHub)
+backend/weights/cognitive_model.pkl
+
+# Local runtime data
+*.sqlite
+*.sqlite3
+*.db
+backend/users.json
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
