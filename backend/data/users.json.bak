@@ -1,0 +1,4339 @@
+{
+  "users": {
+    "fb86c2b8-3d31-4a98-aa57-32ec3b634a4c": {
+      "profile": {
+        "name": "Chendi Chandu",
+        "age": 55,
+        "gender": "male",
+        "education": "high-school",
+        "email": null,
+        "created_at": "2026-04-19T06:17:56.867715"
+      },
+      "sessions": [
+        {
+          "session_id": "c2b3c5d7-ff99-4098-87ae-9dc401101518",
+          "timestamp": "2026-04-19T06:17:56.882467",
+          "test_flow_seed": "4ec3f273-d84c-4022-8cae-2de8b14fc280",
+          "test_flow": {
+            "speech": {
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://share.google/SJtWpLpdNfqWAcIhQ"
+            },
+            "mmse": {
+              "registration_words": [
+                "CHAIR",
+                "BOOK",
+                "HOUSE"
+              ],
+              "recall_words": [
+                "CHAIR",
+                "BOOK",
+                "HOUSE"
+              ],
+              "naming_objects": [
+                "STOOL",
+                "DISHES"
+              ],
+              "attention_start": 94,
+              "attention_word": "WORLD"
+            },
+            "cdrsb": {
+              "memory": "Have you been having trouble remembering things recently?",
+              "orientation": "Do you ever get lost in familiar places?",
+              "judgment": "How well do you make decisions in daily life?",
+              "community_affairs": "Can you perform your usual job or volunteer work?",
+              "home_hobbies": "Do you still enjoy and participate in your usual hobbies?",
+              "personal_care": "Are you fully independent in dressing and washing yourself?"
+            },
+            "total13": [
+              "similarities",
+              "constructional_praxis",
+              "logical_memory",
+              "trail_making",
+              "attention",
+              "reading",
+              "writing",
+              "comprehension",
+              "verbal_fluency",
+              "boston_naming",
+              "delayed_recall",
+              "repetition",
+              "digit_span"
+            ]
+          },
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "1e523704-1aa6-4aa1-8e89-7d7e179ec0b3",
+          "timestamp": "2026-04-19T07:04:03.132294",
+          "test_flow_seed": "69854023-0087-4261-bcfe-e032099758e4",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2026 - Spring",
+                "2025 - Winter",
+                "2024 - Summer",
+                "2023 - Fall"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "CHAIR",
+                "APPLE",
+                "CLOCK"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "94, 87, 80, 73, 66",
+                "92, 85, 78, 71, 64",
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Shoe, Key, Lamp",
+                "WOMAN, COOKIE, JAR",
+                "Pen, Book, Clock",
+                "Car, Tree, Dog"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Stand up",
+                "Close my eyes",
+                "Tap the screen",
+                "Clap my hands"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "8",
+                "4",
+                "5",
+                "6"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "LAMP, SHOE, PHONE",
+                "APPLE, BIRD, FISH",
+                "CHAIR, APPLE, CLOCK",
+                "CAR, TRAIN, TIE"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Slight memory loss",
+                "Moderate memory loss",
+                "No memory loss",
+                "Severe memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Fully capable",
+                "Needs some help",
+                "Unable to handle",
+                "Slight difficulty"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Slightly reduced",
+                "Rarely participates",
+                "Fully active",
+                "Does not participate"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Cannot do chores",
+                "Requires assistance",
+                "Fully capable",
+                "Slightly impaired"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Needs prompting",
+                "Requires assistance",
+                "Fully dependent",
+                "Fully independent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Describe everything you see in this picture in as much detail as possible.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "70e86770-2b18-4d75-8898-b40bc36facad",
+          "timestamp": "2026-04-19T07:33:05.315788",
+          "test_flow_seed": "354ddf84-950c-4d87-808c-079c1ce29b52",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2024 - Summer",
+                "2023 - Fall",
+                "2026 - Spring"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "CAR",
+                "APPLE",
+                "BIRD"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "92, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "94, 87, 80, 73, 66",
+                "93, 85, 78, 71, 64"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "SINK, COOKIE, FLOOR",
+                "Car, Tree, Dog",
+                "Pen, Book, Clock",
+                "Shoe, Key, Lamp"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Close my eyes",
+                "Tap the screen",
+                "Clap my hands",
+                "Stand up"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "6",
+                "8",
+                "4",
+                "5"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "BOAT, PHONE, PEN",
+                "BOOK, PEN, HOUSE",
+                "CAR, APPLE, BIRD",
+                "SHOE, TIE, PHONE"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Moderate memory loss",
+                "Slight memory loss",
+                "No memory loss",
+                "Severe memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Needs some help",
+                "Slight difficulty",
+                "Unable to handle",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Fully active",
+                "Slightly reduced",
+                "Does not participate",
+                "Rarely participates"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Fully capable",
+                "Slightly impaired",
+                "Cannot do chores",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully independent",
+                "Requires assistance",
+                "Fully dependent",
+                "Needs prompting"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "a400e222-e223-4a98-8984-8e1355101ab6",
+          "timestamp": "2026-04-19T07:35:54.227353",
+          "test_flow_seed": "70e11c8f-5694-4e04-8848-ace779793f71",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2023 - Fall",
+                "2024 - Summer",
+                "2025 - Winter",
+                "2026 - Spring"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "TIE",
+                "STAR",
+                "BOAT"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 85, 78, 71, 64",
+                "92, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66",
+                "93, 86, 79, 72, 65"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Car, Tree, Dog",
+                "Shoe, Key, Lamp",
+                "Pen, Book, Clock",
+                "SINK, BOY, CABINET"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Close my eyes",
+                "Clap my hands",
+                "Tap the screen",
+                "Stand up"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "4",
+                "5",
+                "6",
+                "8"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "TIE, STAR, BOAT",
+                "SHOE, CAR, TABLE",
+                "TIE, FISH, CLOCK",
+                "SHOE, TABLE, LAMP"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "No memory loss",
+                "Moderate memory loss",
+                "Slight memory loss",
+                "Severe memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Slight difficulty",
+                "Needs some help",
+                "Fully capable",
+                "Unable to handle"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Does not participate",
+                "Slightly reduced",
+                "Fully active",
+                "Rarely participates"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Cannot do chores",
+                "Requires assistance",
+                "Slightly impaired",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Needs prompting",
+                "Requires assistance",
+                "Fully independent",
+                "Fully dependent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "List all the objects, people, and actions you observe in this scene.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "2616de44-95c9-4e0e-9a75-7412ef640101",
+          "timestamp": "2026-04-19T07:38:41.354013",
+          "test_flow_seed": "bd4caf71-4463-47d5-807f-c66b6472d9e9",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2024 - Summer",
+                "2023 - Fall",
+                "2026 - Spring"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "FISH",
+                "HOUSE",
+                "LAMP"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "94, 87, 80, 73, 66",
+                "92, 85, 78, 71, 64",
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Car, Tree, Dog",
+                "STOOL, COUNTER, WINDOW",
+                "Shoe, Key, Lamp",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Clap my hands",
+                "Tap the screen",
+                "Close my eyes",
+                "Stand up"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "8",
+                "4",
+                "5",
+                "6"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "TIE, CHAIR, TREE",
+                "CAR, PEN, BIRD",
+                "FISH, HOUSE, LAMP",
+                "HOUSE, BOAT, BOOK"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "No memory loss",
+                "Slight memory loss",
+                "Severe memory loss",
+                "Moderate memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Unable to handle",
+                "Needs some help",
+                "Fully capable",
+                "Slight difficulty"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Rarely participates",
+                "Slightly reduced",
+                "Does not participate",
+                "Fully active"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Requires assistance",
+                "Cannot do chores",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully independent",
+                "Fully dependent",
+                "Requires assistance",
+                "Needs prompting"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "db8c53b8-31f4-4d2f-999a-2de087054025",
+          "timestamp": "2026-04-19T07:41:51.436319",
+          "test_flow_seed": "bef4b757-788a-4546-8016-44fd549009d1",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2024 - Summer",
+                "2025 - Winter",
+                "2023 - Fall",
+                "2026 - Spring"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "SHOE",
+                "TIE",
+                "LAMP"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "92, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66",
+                "93, 86, 79, 72, 65",
+                "93, 85, 78, 71, 64"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "CURTAIN, FLOOR, BOY",
+                "Shoe, Key, Lamp",
+                "Car, Tree, Dog",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Stand up",
+                "Clap my hands",
+                "Close my eyes",
+                "Tap the screen"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "5",
+                "4",
+                "6",
+                "8"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "SHOE, TIE, LAMP",
+                "BOOK, BOAT, PEN",
+                "STAR, TIE, FISH",
+                "STAR, PHONE, TIE"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Moderate memory loss",
+                "Slight memory loss",
+                "Severe memory loss",
+                "No memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Unable to handle",
+                "Needs some help",
+                "Fully capable",
+                "Slight difficulty"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Does not participate",
+                "Fully active",
+                "Rarely participates",
+                "Slightly reduced"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Requires assistance",
+                "Cannot do chores",
+                "Fully capable",
+                "Slightly impaired"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Needs prompting",
+                "Fully independent",
+                "Fully dependent",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "List all the objects, people, and actions you observe in this scene.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "26a5ccd8-dbc2-4eca-af80-68f981bf142c",
+          "timestamp": "2026-05-20T02:20:33.088442",
+          "test_flow_seed": "ccf05b4a-ee1c-46ac-9ef2-651b2c5d0a4e",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2026 - Spring",
+                "2024 - Summer",
+                "2023 - Fall"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "BIRD",
+                "KEY",
+                "CLOCK"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "92, 85, 78, 71, 64",
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "94, 87, 80, 73, 66"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Car, Tree, Dog",
+                "Pen, Book, Clock",
+                "Shoe, Key, Lamp",
+                "COUNTER, CABINET, WOMAN"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Tap the screen",
+                "Close my eyes",
+                "Stand up",
+                "Clap my hands"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "6",
+                "5",
+                "8",
+                "4"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "BIRD, KEY, CLOCK",
+                "KEY, TIE, FISH",
+                "TRAIN, BOOK, FISH",
+                "HOUSE, TRAIN, TABLE"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Slight memory loss",
+                "Severe memory loss",
+                "No memory loss",
+                "Moderate memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Needs some help",
+                "Slight difficulty",
+                "Unable to handle",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Does not participate",
+                "Slightly reduced",
+                "Fully active",
+                "Rarely participates"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Requires assistance",
+                "Cannot do chores",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully dependent",
+                "Needs prompting",
+                "Requires assistance",
+                "Fully independent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Describe everything you see in this picture in as much detail as possible.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 5,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2024 - Summer",
+              "registration": true,
+              "attention": "93, 85, 78, 71, 64",
+              "naming": "COUNTER, CABINET, WOMAN",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Needs some help",
+              "community": "Does not participate",
+              "home": "Requires assistance",
+              "personal": "Needs prompting",
+              "delayed_recall": "BIRD, KEY, CLOCK"
+            },
+            "cdrsb": {
+              "orientation": "2024 - Summer",
+              "registration": true,
+              "attention": "93, 85, 78, 71, 64",
+              "naming": "COUNTER, CABINET, WOMAN",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Needs some help",
+              "community": "Does not participate",
+              "home": "Requires assistance",
+              "personal": "Needs prompting",
+              "delayed_recall": "BIRD, KEY, CLOCK"
+            },
+            "total13": {
+              "orientation": "2024 - Summer",
+              "registration": true,
+              "attention": "93, 85, 78, 71, 64",
+              "naming": "COUNTER, CABINET, WOMAN",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Needs some help",
+              "community": "Does not participate",
+              "home": "Requires assistance",
+              "personal": "Needs prompting",
+              "delayed_recall": "BIRD, KEY, CLOCK"
+            }
+          },
+          "scores": {
+            "speech_score": 0.8,
+            "cognitive_score": 0.4388888888888889,
+            "combined_risk": 0.5833333333333334,
+            "risk_label": "Moderate",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.5611111111111111,
+              "attention": 0.6488888888888888,
+              "language": 0.605,
+              "orientation": 0.6927777777777778,
+              "executive": 0.5172222222222222
+            }
+          },
+          "speech_analysis": {
+            "score": 0.8,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 12,
+            "cdrsb": 5.0,
+            "total13": 12
+          }
+        },
+        {
+          "session_id": "2d5f39c4-aa80-491c-8e86-9a102ec79255",
+          "timestamp": "2026-05-20T02:22:32.547935",
+          "test_flow_seed": "dfe3b58f-20f3-44e7-a46b-47cf4a4bace1",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2023 - Fall",
+                "2025 - Winter",
+                "2024 - Summer",
+                "2026 - Spring"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "CAR",
+                "TREE",
+                "BOAT"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "94, 87, 80, 73, 66",
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "92, 85, 78, 71, 64"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Pen, Book, Clock",
+                "FLOOR, WATER, WINDOW",
+                "Shoe, Key, Lamp",
+                "Car, Tree, Dog"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Tap the screen",
+                "Close my eyes",
+                "Clap my hands",
+                "Stand up"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "8",
+                "6",
+                "5",
+                "4"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "STAR, SHOE, BOOK",
+                "CAR, TREE, BOAT",
+                "CAR, BOAT, LAMP",
+                "TIE, PHONE, BOOK"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "No memory loss",
+                "Moderate memory loss",
+                "Slight memory loss",
+                "Severe memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Needs some help",
+                "Slight difficulty",
+                "Fully capable",
+                "Unable to handle"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Does not participate",
+                "Slightly reduced",
+                "Fully active",
+                "Rarely participates"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Fully capable",
+                "Cannot do chores",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Requires assistance",
+                "Needs prompting",
+                "Fully dependent",
+                "Fully independent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "c7d2049a-6a1e-4a38-99ef-7a719ddf7342",
+          "timestamp": "2026-05-20T02:29:28.082452",
+          "test_flow_seed": "a5da582c-087a-4c83-9779-0684d54e0cfb",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2026 - Spring",
+                "2023 - Fall",
+                "2024 - Summer",
+                "2025 - Winter"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "PEN",
+                "CLOCK",
+                "TABLE"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 86, 79, 72, 65",
+                "92, 85, 78, 71, 64",
+                "93, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "GIRL, FLOOR, JAR",
+                "Car, Tree, Dog",
+                "Pen, Book, Clock",
+                "Shoe, Key, Lamp"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Tap the screen",
+                "Clap my hands",
+                "Close my eyes",
+                "Stand up"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "6",
+                "4",
+                "5",
+                "8"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "PEN, CLOCK, TABLE",
+                "FISH, APPLE, CHAIR",
+                "STAR, FISH, APPLE",
+                "PHONE, SHOE, FISH"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Severe memory loss",
+                "Moderate memory loss",
+                "No memory loss",
+                "Slight memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Unable to handle",
+                "Fully capable",
+                "Slight difficulty",
+                "Needs some help"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Does not participate",
+                "Slightly reduced",
+                "Fully active",
+                "Rarely participates"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Requires assistance",
+                "Cannot do chores",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Requires assistance",
+                "Fully independent",
+                "Needs prompting",
+                "Fully dependent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "fe61e301-6341-40fc-98e4-44a1d0adb7fa",
+          "timestamp": "2026-05-20T02:50:07.315986",
+          "test_flow_seed": "02eade2e-1c69-41ad-9236-9bc41d3e4433",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2024 - Summer",
+                "2026 - Spring",
+                "2025 - Winter",
+                "2023 - Fall"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "PEN",
+                "KEY",
+                "CAR"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 86, 79, 72, 65",
+                "92, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66",
+                "93, 85, 78, 71, 64"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Car, Tree, Dog",
+                "WATER, GIRL, JAR",
+                "Shoe, Key, Lamp",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Close my eyes",
+                "Clap my hands",
+                "Stand up",
+                "Tap the screen"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "5",
+                "6",
+                "4",
+                "8"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "CHAIR, SHOE, FISH",
+                "LAMP, TABLE, PEN",
+                "KEY, STAR, BIRD",
+                "PEN, KEY, CAR"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Severe memory loss",
+                "No memory loss",
+                "Slight memory loss",
+                "Moderate memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Needs some help",
+                "Unable to handle",
+                "Slight difficulty",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Fully active",
+                "Rarely participates",
+                "Does not participate",
+                "Slightly reduced"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Requires assistance",
+                "Fully capable",
+                "Cannot do chores"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully dependent",
+                "Fully independent",
+                "Requires assistance",
+                "Needs prompting"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "40e1081e-fb80-4f8d-9d96-5a4815989253",
+          "timestamp": "2026-05-20T02:52:22.755112",
+          "test_flow_seed": "2bc3009f-56b3-467a-a5c3-9141f0c72334",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2026 - Spring",
+                "2023 - Fall",
+                "2024 - Summer"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "TRAIN",
+                "BOOK",
+                "PEN"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "92, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "93, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "SINK, WINDOW, CABINET",
+                "Pen, Book, Clock",
+                "Car, Tree, Dog",
+                "Shoe, Key, Lamp"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Clap my hands",
+                "Stand up",
+                "Tap the screen",
+                "Close my eyes"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "5",
+                "6",
+                "8",
+                "4"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "APPLE, TRAIN, TREE",
+                "TREE, TRAIN, STAR",
+                "TRAIN, BOOK, PEN",
+                "FISH, CHAIR, CLOCK"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "No memory loss",
+                "Severe memory loss",
+                "Moderate memory loss",
+                "Slight memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Unable to handle",
+                "Slight difficulty",
+                "Fully capable",
+                "Needs some help"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Slightly reduced",
+                "Rarely participates",
+                "Fully active",
+                "Does not participate"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Cannot do chores",
+                "Requires assistance",
+                "Slightly impaired",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Needs prompting",
+                "Fully independent",
+                "Requires assistance",
+                "Fully dependent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Describe everything you see in this picture in as much detail as possible.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "69fc929f-171b-4871-b956-f808f62f9133",
+          "timestamp": "2026-05-20T02:58:32.493045",
+          "test_flow_seed": "9868310f-1bef-42dd-acf6-cc5ba7ade15c",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2024 - Summer",
+                "2025 - Winter",
+                "2026 - Spring",
+                "2023 - Fall"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "BOAT",
+                "TREE",
+                "PHONE"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "94, 87, 80, 73, 66",
+                "93, 86, 79, 72, 65",
+                "92, 85, 78, 71, 64",
+                "93, 85, 78, 71, 64"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Car, Tree, Dog",
+                "WATER, STOOL, BOY",
+                "Shoe, Key, Lamp",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Close my eyes",
+                "Clap my hands",
+                "Stand up",
+                "Tap the screen"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "8",
+                "5",
+                "4",
+                "6"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "TIE, SHOE, BIRD",
+                "BOAT, TREE, PHONE",
+                "CHAIR, PEN, PHONE",
+                "KEY, LAMP, BIRD"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Moderate memory loss",
+                "Slight memory loss",
+                "No memory loss",
+                "Severe memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Fully capable",
+                "Needs some help",
+                "Unable to handle",
+                "Slight difficulty"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Does not participate",
+                "Rarely participates",
+                "Fully active",
+                "Slightly reduced"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Fully capable",
+                "Requires assistance",
+                "Cannot do chores",
+                "Slightly impaired"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Needs prompting",
+                "Fully dependent",
+                "Requires assistance",
+                "Fully independent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Describe everything you see in this picture in as much detail as possible.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        },
+        {
+          "session_id": "7760175a-cc7e-4227-83a0-94974a3ba2a5",
+          "timestamp": "2026-05-24T06:12:26.680743",
+          "test_flow_seed": "1bed56f0-3e05-4e1f-a3e9-faa876a9d921",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2026 - Spring",
+                "2024 - Summer",
+                "2023 - Fall"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "APPLE",
+                "FISH",
+                "LAMP"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 85, 78, 71, 64",
+                "92, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "94, 87, 80, 73, 66"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "Car, Tree, Dog",
+                "Shoe, Key, Lamp",
+                "GIRL, SINK, BOY",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Close my eyes",
+                "Stand up",
+                "Clap my hands",
+                "Tap the screen"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "4",
+                "8",
+                "6",
+                "5"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "APPLE, FISH, LAMP",
+                "PEN, BIRD, DOG",
+                "PEN, TABLE, CHAIR",
+                "KEY, PEN, SHOE"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Moderate memory loss",
+                "Slight memory loss",
+                "No memory loss",
+                "Severe memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Fully capable",
+                "Slight difficulty",
+                "Needs some help",
+                "Unable to handle"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Fully active",
+                "Slightly reduced",
+                "Does not participate",
+                "Rarely participates"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Fully capable",
+                "Cannot do chores",
+                "Slightly impaired",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully independent",
+                "Fully dependent",
+                "Needs prompting",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "List all the objects, people, and actions you observe in this scene.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 5,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2026 - Spring",
+              "registration": true,
+              "attention": "93, 86, 79, 72, 65",
+              "naming": "GIRL, SINK, BOY",
+              "commands": "Clap my hands",
+              "visuospatial": "6",
+              "memory_cdrsb": "Severe memory loss",
+              "judgment": "Needs some help",
+              "community": "Slightly reduced",
+              "home": "Cannot do chores",
+              "personal": "Requires assistance",
+              "delayed_recall": "KEY, PEN, SHOE"
+            },
+            "cdrsb": {
+              "orientation": "2026 - Spring",
+              "registration": true,
+              "attention": "93, 86, 79, 72, 65",
+              "naming": "GIRL, SINK, BOY",
+              "commands": "Clap my hands",
+              "visuospatial": "6",
+              "memory_cdrsb": "Severe memory loss",
+              "judgment": "Needs some help",
+              "community": "Slightly reduced",
+              "home": "Cannot do chores",
+              "personal": "Requires assistance",
+              "delayed_recall": "KEY, PEN, SHOE"
+            },
+            "total13": {
+              "orientation": "2026 - Spring",
+              "registration": true,
+              "attention": "93, 86, 79, 72, 65",
+              "naming": "GIRL, SINK, BOY",
+              "commands": "Clap my hands",
+              "visuospatial": "6",
+              "memory_cdrsb": "Severe memory loss",
+              "judgment": "Needs some help",
+              "community": "Slightly reduced",
+              "home": "Cannot do chores",
+              "personal": "Requires assistance",
+              "delayed_recall": "KEY, PEN, SHOE"
+            }
+          },
+          "scores": {
+            "speech_score": 0.8,
+            "cognitive_score": 0.4666666666666667,
+            "combined_risk": 0.6000000000000001,
+            "risk_label": "Moderate",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.5333333333333333,
+              "attention": 0.6266666666666667,
+              "language": 0.58,
+              "orientation": 0.6733333333333333,
+              "executive": 0.4866666666666666
+            }
+          },
+          "speech_analysis": {
+            "score": 0.8,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 12,
+            "cdrsb": 6.0,
+            "total13": 12
+          }
+        }
+      ]
+    },
+    "84ef2000-c907-4faf-864b-edacd16e214a": {
+      "profile": {
+        "name": "Chendi Chandu",
+        "age": 67,
+        "gender": "male",
+        "education": "bachelors",
+        "email": null,
+        "created_at": "2026-04-19T06:42:28.825736"
+      },
+      "sessions": [
+        {
+          "session_id": "d937a4ab-9262-4f7f-9b4c-2bfadcc8f05a",
+          "timestamp": "2026-04-19T06:42:36.469380",
+          "test_flow_seed": "f5b69d1f-02bc-4b35-8bc4-9063ffcfb287",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "type": "text",
+              "title": "Orientation",
+              "prompt": "What is the current date, year, and your location?"
+            },
+            {
+              "id": "registration",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "TRAIN",
+                "CHAIR",
+                "STAR"
+              ]
+            },
+            {
+              "id": "attention",
+              "type": "text",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 93, subtract 7 sequentially. Type the next 5 numbers."
+            },
+            {
+              "id": "naming",
+              "type": "multi_text",
+              "title": "Language & Naming",
+              "prompt": "Please name the objects below:",
+              "data": [
+                "CURTAIN",
+                "COUNTER",
+                "SINK"
+              ]
+            },
+            {
+              "id": "commands",
+              "type": "text",
+              "title": "Following Commands",
+              "prompt": "Type 'I understand' to confirm you can read and follow this instruction."
+            },
+            {
+              "id": "visuospatial",
+              "type": "text",
+              "title": "Visuospatial Ability",
+              "prompt": "Describe the spatial relationship between your screen and keyboard."
+            },
+            {
+              "id": "delayed_recall",
+              "type": "text",
+              "title": "Delayed Recall",
+              "prompt": "Type the three words you were asked to remember earlier."
+            },
+            {
+              "id": "memory_cdrsb",
+              "type": "likert",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?"
+            },
+            {
+              "id": "judgment",
+              "type": "likert",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?"
+            },
+            {
+              "id": "community",
+              "type": "likert",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?"
+            },
+            {
+              "id": "home",
+              "type": "likert",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?"
+            },
+            {
+              "id": "personal",
+              "type": "likert",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?"
+            },
+            {
+              "id": "speech_task",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Describe everything you see in this picture in as much detail as possible.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": null,
+          "cognitive_answers": null,
+          "scores": null
+        }
+      ]
+    },
+    "241a6ab7-4b0c-41bb-8de2-c9054130f6c0": {
+      "profile": {
+        "name": "Chandu",
+        "age": 22,
+        "gender": "male",
+        "education": "bachelors",
+        "email": null,
+        "created_at": "2026-05-19T05:40:42.359870"
+      },
+      "sessions": []
+    },
+    "5b28a746-3418-4a3b-bbe0-0b84bc5f4d3b": {
+      "profile": {
+        "name": "Chendi Chandu",
+        "age": 43,
+        "gender": "male",
+        "education": "high-school",
+        "email": null,
+        "created_at": "2026-05-20T02:11:08.813452"
+      },
+      "sessions": []
+    },
+    "c5b4b1f3-b21d-4d59-bd19-eaffa1da0863": {
+      "profile": {
+        "name": "warsd",
+        "age": 55,
+        "gender": "male",
+        "education": "doctorate",
+        "email": null,
+        "created_at": "2026-05-24T06:21:20.507980"
+      },
+      "sessions": []
+    },
+    "2b0a183b-2260-4a57-abe8-256b73c5f263": {
+      "profile": {
+        "email": "chendichandu@gmail.com",
+        "hashed_password": "$2b$12$sOJt4Tzm1axaeci2qdiwgu9y3iR9a76GSLYuecEnDNsoYJIpIJ4HG",
+        "onboarded": true,
+        "created_at": "2026-06-01T13:18:54.242197",
+        "name": "Chendi Chandu",
+        "age": 34,
+        "gender": "male",
+        "education": "high-school",
+        "consent": true
+      },
+      "sessions": [
+        {
+          "session_id": "4bdc7ed9-724c-45cd-9e13-c0d09b52e8e4",
+          "timestamp": "2026-06-01T13:59:17.522671",
+          "test_flow_seed": "50139b8b-9567-470b-85e8-1134fef71d7d",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2024 - Summer",
+                "2023 - Fall",
+                "2026 - Spring"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "LAMP",
+                "KEY",
+                "STAR"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 85, 78, 71, 64",
+                "92, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "94, 87, 80, 73, 66"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "STOOL, JAR, COOKIE",
+                "Shoe, Key, Lamp",
+                "Car, Tree, Dog",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Clap my hands",
+                "Stand up",
+                "Tap the screen",
+                "Close my eyes"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "4",
+                "5",
+                "8",
+                "6"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "PEN, BIRD, PHONE",
+                "HOUSE, PHONE, TREE",
+                "LAMP, KEY, STAR",
+                "DOG, TRAIN, BIRD"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Moderate memory loss",
+                "No memory loss",
+                "Severe memory loss",
+                "Slight memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Slight difficulty",
+                "Needs some help",
+                "Unable to handle",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Fully active",
+                "Rarely participates",
+                "Slightly reduced",
+                "Does not participate"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Cannot do chores",
+                "Slightly impaired",
+                "Fully capable",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully dependent",
+                "Fully independent",
+                "Needs prompting",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 6,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "92, 85, 78, 71, 64",
+              "naming": "Car, Tree, Dog",
+              "commands": "Tap the screen",
+              "visuospatial": "6",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Unable to handle",
+              "community": "Rarely participates",
+              "home": "Slightly impaired",
+              "personal": "Needs prompting",
+              "delayed_recall": "DOG, TRAIN, BIRD"
+            },
+            "cdrsb": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "92, 85, 78, 71, 64",
+              "naming": "Car, Tree, Dog",
+              "commands": "Tap the screen",
+              "visuospatial": "6",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Unable to handle",
+              "community": "Rarely participates",
+              "home": "Slightly impaired",
+              "personal": "Needs prompting",
+              "delayed_recall": "DOG, TRAIN, BIRD"
+            },
+            "total13": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "92, 85, 78, 71, 64",
+              "naming": "Car, Tree, Dog",
+              "commands": "Tap the screen",
+              "visuospatial": "6",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Unable to handle",
+              "community": "Rarely participates",
+              "home": "Slightly impaired",
+              "personal": "Needs prompting",
+              "delayed_recall": "DOG, TRAIN, BIRD"
+            }
+          },
+          "scores": {
+            "speech_score": 0.8,
+            "cognitive_score": 0.4666666666666667,
+            "combined_risk": 0.6000000000000001,
+            "risk_label": "Moderate",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.5333333333333333,
+              "attention": 0.6266666666666667,
+              "language": 0.58,
+              "orientation": 0.6733333333333333,
+              "executive": 0.4866666666666666
+            }
+          },
+          "speech_analysis": {
+            "score": 0.8,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 12,
+            "cdrsb": 6.0,
+            "total13": 12
+          }
+        },
+        {
+          "session_id": "1e2ffe51-a4bf-4d34-a595-fb860d27db03",
+          "timestamp": "2026-06-01T14:05:20.614035",
+          "test_flow_seed": "c6d47413-7e2d-4858-ab90-decb3f7d1a9c",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2023 - Fall",
+                "2026 - Spring",
+                "2024 - Summer"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "SHOE",
+                "BOAT",
+                "KEY"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "94, 87, 80, 73, 66",
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "92, 85, 78, 71, 64"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "WOMAN, COUNTER, STOOL",
+                "Car, Tree, Dog",
+                "Shoe, Key, Lamp",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Stand up",
+                "Tap the screen",
+                "Close my eyes",
+                "Clap my hands"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "4",
+                "6",
+                "8",
+                "5"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "DOG, PHONE, PEN",
+                "SHOE, BOAT, KEY",
+                "APPLE, HOUSE, BOAT",
+                "HOUSE, CAR, KEY"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Slight memory loss",
+                "No memory loss",
+                "Severe memory loss",
+                "Moderate memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Fully capable",
+                "Slight difficulty",
+                "Needs some help",
+                "Unable to handle"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Does not participate",
+                "Fully active",
+                "Slightly reduced",
+                "Rarely participates"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Cannot do chores",
+                "Slightly impaired",
+                "Requires assistance",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Requires assistance",
+                "Fully dependent",
+                "Needs prompting",
+                "Fully independent"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "List all the objects, people, and actions you observe in this scene.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 4,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2024 - Summer",
+              "registration": true,
+              "attention": "93, 85, 78, 71, 64",
+              "naming": "Car, Tree, Dog",
+              "commands": "Clap my hands",
+              "visuospatial": "5",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Unable to handle",
+              "community": "Slightly reduced",
+              "home": "Requires assistance",
+              "personal": "Fully independent",
+              "delayed_recall": "HOUSE, CAR, KEY"
+            },
+            "cdrsb": {
+              "orientation": "2024 - Summer",
+              "registration": true,
+              "attention": "93, 85, 78, 71, 64",
+              "naming": "Car, Tree, Dog",
+              "commands": "Clap my hands",
+              "visuospatial": "5",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Unable to handle",
+              "community": "Slightly reduced",
+              "home": "Requires assistance",
+              "personal": "Fully independent",
+              "delayed_recall": "HOUSE, CAR, KEY"
+            },
+            "total13": {
+              "orientation": "2024 - Summer",
+              "registration": true,
+              "attention": "93, 85, 78, 71, 64",
+              "naming": "Car, Tree, Dog",
+              "commands": "Clap my hands",
+              "visuospatial": "5",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Unable to handle",
+              "community": "Slightly reduced",
+              "home": "Requires assistance",
+              "personal": "Fully independent",
+              "delayed_recall": "HOUSE, CAR, KEY"
+            }
+          },
+          "scores": {
+            "speech_score": 0.8,
+            "cognitive_score": 0.4388888888888889,
+            "combined_risk": 0.5833333333333334,
+            "risk_label": "Moderate",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.5611111111111111,
+              "attention": 0.6488888888888888,
+              "language": 0.605,
+              "orientation": 0.6927777777777778,
+              "executive": 0.5172222222222222
+            }
+          },
+          "speech_analysis": {
+            "score": 0.8,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 12,
+            "cdrsb": 5.0,
+            "total13": 12
+          }
+        }
+      ]
+    },
+    "b470bcd4-6fcd-4d46-bdd1-a152432fe1bd": {
+      "profile": {
+        "email": "chendichandu2998@gmail.com",
+        "hashed_password": "$2b$12$RA6ymMCnWs63/0t1OS59hegKVmgdK7ezImtF9DFCzPlK97h0GU.gm",
+        "onboarded": true,
+        "created_at": "2026-06-01T14:32:08.105669",
+        "name": "Chendi Chandu",
+        "age": 34,
+        "gender": "male",
+        "education": "high-school",
+        "consent": true
+      },
+      "sessions": [
+        {
+          "session_id": "68545a46-11be-4c8d-ab34-3a88a7e7ec15",
+          "timestamp": "2026-06-01T14:32:25.286719",
+          "test_flow_seed": "cc1ce98b-0321-4e7c-8b8a-3a85822e5719",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2023 - Fall",
+                "2026 - Spring",
+                "2024 - Summer"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "APPLE",
+                "TRAIN",
+                "CAR"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 86, 79, 72, 65",
+                "93, 85, 78, 71, 64",
+                "92, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "GIRL, PLATE, WATER",
+                "Shoe, Key, Lamp",
+                "Car, Tree, Dog",
+                "Pen, Book, Clock"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Stand up",
+                "Tap the screen",
+                "Clap my hands",
+                "Close my eyes"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "6",
+                "5",
+                "8",
+                "4"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "LAMP, STAR, CLOCK",
+                "BIRD, BOOK, CAR",
+                "APPLE, TRAIN, CAR",
+                "PEN, TREE, PHONE"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Severe memory loss",
+                "Slight memory loss",
+                "Moderate memory loss",
+                "No memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Slight difficulty",
+                "Unable to handle",
+                "Needs some help",
+                "Fully capable"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Rarely participates",
+                "Does not participate",
+                "Slightly reduced",
+                "Fully active"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Fully capable",
+                "Cannot do chores",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully dependent",
+                "Requires assistance",
+                "Fully independent",
+                "Needs prompting"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Look at this drawing and describe every detail you notice.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 1,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "92, 85, 78, 71, 64",
+              "naming": "Pen, Book, Clock",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Fully capable",
+              "community": "Slightly reduced",
+              "home": "Fully capable",
+              "personal": "Fully dependent",
+              "delayed_recall": "APPLE, TRAIN, CAR"
+            },
+            "cdrsb": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "92, 85, 78, 71, 64",
+              "naming": "Pen, Book, Clock",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Fully capable",
+              "community": "Slightly reduced",
+              "home": "Fully capable",
+              "personal": "Fully dependent",
+              "delayed_recall": "APPLE, TRAIN, CAR"
+            },
+            "total13": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "92, 85, 78, 71, 64",
+              "naming": "Pen, Book, Clock",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "Slight memory loss",
+              "judgment": "Fully capable",
+              "community": "Slightly reduced",
+              "home": "Fully capable",
+              "personal": "Fully dependent",
+              "delayed_recall": "APPLE, TRAIN, CAR"
+            }
+          },
+          "scores": {
+            "speech_score": 0.2,
+            "cognitive_score": 0.4388888888888889,
+            "combined_risk": 0.3433333333333333,
+            "risk_label": "Moderate",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.5611111111111111,
+              "attention": 0.6488888888888888,
+              "language": 0.605,
+              "orientation": 0.6927777777777778,
+              "executive": 0.5172222222222222
+            }
+          },
+          "speech_analysis": {
+            "score": 0.2,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 12,
+            "cdrsb": 5.0,
+            "total13": 12
+          }
+        },
+        {
+          "session_id": "e8fa3cfc-2727-4367-acbd-60959b3ce1a9",
+          "timestamp": "2026-06-01T14:33:36.540029",
+          "test_flow_seed": "ed1ed317-4ae8-4a52-bae9-5b3d788fc129",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2026 - Spring",
+                "2025 - Winter",
+                "2023 - Fall",
+                "2024 - Summer"
+              ]
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "TABLE",
+                "SHOE",
+                "PHONE"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "92, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66"
+              ]
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "DISHES, JAR, COOKIE",
+                "Pen, Book, Clock",
+                "Shoe, Key, Lamp",
+                "Car, Tree, Dog"
+              ]
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Clap my hands",
+                "Stand up",
+                "Close my eyes",
+                "Tap the screen"
+              ]
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "6",
+                "8",
+                "5",
+                "4"
+              ]
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "SHOE, HOUSE, DOG",
+                "LAMP, PHONE, KEY",
+                "PEN, HOUSE, TABLE",
+                "TABLE, SHOE, PHONE"
+              ]
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Moderate memory loss",
+                "Slight memory loss",
+                "No memory loss",
+                "Severe memory loss"
+              ]
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Unable to handle",
+                "Slight difficulty",
+                "Fully capable",
+                "Needs some help"
+              ]
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Slightly reduced",
+                "Rarely participates",
+                "Fully active",
+                "Does not participate"
+              ]
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Fully capable",
+                "Slightly impaired",
+                "Requires assistance",
+                "Cannot do chores"
+              ]
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully independent",
+                "Fully dependent",
+                "Needs prompting",
+                "Requires assistance"
+              ]
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Describe everything you see in this picture in as much detail as possible.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 4,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "94, 87, 80, 73, 66",
+              "naming": "DISHES, JAR, COOKIE",
+              "commands": "Clap my hands",
+              "visuospatial": "6",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Fully capable",
+              "community": "Fully active",
+              "home": "Fully capable",
+              "personal": "Fully independent",
+              "delayed_recall": "SHOE, HOUSE, DOG"
+            },
+            "cdrsb": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "94, 87, 80, 73, 66",
+              "naming": "DISHES, JAR, COOKIE",
+              "commands": "Clap my hands",
+              "visuospatial": "6",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Fully capable",
+              "community": "Fully active",
+              "home": "Fully capable",
+              "personal": "Fully independent",
+              "delayed_recall": "SHOE, HOUSE, DOG"
+            },
+            "total13": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "94, 87, 80, 73, 66",
+              "naming": "DISHES, JAR, COOKIE",
+              "commands": "Clap my hands",
+              "visuospatial": "6",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Fully capable",
+              "community": "Fully active",
+              "home": "Fully capable",
+              "personal": "Fully independent",
+              "delayed_recall": "SHOE, HOUSE, DOG"
+            }
+          },
+          "scores": {
+            "speech_score": 0.8,
+            "cognitive_score": 0.4666666666666667,
+            "combined_risk": 0.6000000000000001,
+            "risk_label": "Moderate",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.5333333333333333,
+              "attention": 0.6266666666666667,
+              "language": 0.58,
+              "orientation": 0.6733333333333333,
+              "executive": 0.4866666666666666
+            }
+          },
+          "speech_analysis": {
+            "score": 0.8,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 12,
+            "cdrsb": 6.0,
+            "total13": 12
+          }
+        }
+      ]
+    },
+    "55f4171c-32b2-414a-8f93-7142fcda3318": {
+      "profile": {
+        "email": "chendichandu@gmail.comm",
+        "hashed_password": "$2b$12$gogqHRJ2HQR3/uSsCnCOv.eXvtGa3W/cdQrZrfY9ChHCXMVRYb0b2",
+        "onboarded": true,
+        "created_at": "2026-06-01T14:44:27.403817",
+        "name": "Chendi Chandu",
+        "age": 34,
+        "gender": "male",
+        "education": "masters",
+        "consent": true
+      },
+      "sessions": [
+        {
+          "session_id": "89f5183c-be76-42a3-8df5-56daaa1739f7",
+          "timestamp": "2026-06-01T14:44:41.700903",
+          "test_flow_seed": "a43472e1-3f44-45dd-a912-1ba732e6f846",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Winter",
+                "2026 - Spring",
+                "2023 - Fall",
+                "2024 - Summer"
+              ],
+              "correct_answer": "2026 - Spring"
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "STAR",
+                "TIE",
+                "BOOK"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65",
+                "94, 87, 80, 73, 66",
+                "92, 85, 78, 71, 64"
+              ],
+              "correct_answer": "93, 86, 79, 72, 65"
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "FLOOR, STOOL, CABINET",
+                "Car, Tree, Dog",
+                "Pen, Book, Clock",
+                "Shoe, Key, Lamp"
+              ],
+              "correct_answer": "FLOOR, STOOL, CABINET"
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Tap the screen",
+                "Close my eyes",
+                "Stand up",
+                "Clap my hands"
+              ],
+              "correct_answer": "Close my eyes"
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "8",
+                "4",
+                "6",
+                "5"
+              ],
+              "correct_answer": "5"
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "HOUSE, DOG, LAMP",
+                "FISH, BOOK, CAR",
+                "STAR, TIE, BOOK",
+                "BIRD, DOG, LAMP"
+              ],
+              "correct_answer": "STAR, TIE, BOOK"
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Slight memory loss",
+                "Moderate memory loss",
+                "Severe memory loss",
+                "No memory loss"
+              ],
+              "score_mapping": {
+                "No memory loss": 0.0,
+                "Slight memory loss": 1.0,
+                "Moderate memory loss": 2.0,
+                "Severe memory loss": 3.0
+              }
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Needs some help",
+                "Fully capable",
+                "Unable to handle",
+                "Slight difficulty"
+              ],
+              "score_mapping": {
+                "Fully capable": 0.0,
+                "Slight difficulty": 1.0,
+                "Needs some help": 2.0,
+                "Unable to handle": 3.0
+              }
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Fully active",
+                "Rarely participates",
+                "Slightly reduced",
+                "Does not participate"
+              ],
+              "score_mapping": {
+                "Fully active": 0.0,
+                "Slightly reduced": 1.0,
+                "Rarely participates": 2.0,
+                "Does not participate": 3.0
+              }
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Fully capable",
+                "Cannot do chores",
+                "Requires assistance"
+              ],
+              "score_mapping": {
+                "Fully capable": 0.0,
+                "Slightly impaired": 1.0,
+                "Requires assistance": 2.0,
+                "Cannot do chores": 3.0
+              }
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully independent",
+                "Fully dependent",
+                "Requires assistance",
+                "Needs prompting"
+              ],
+              "score_mapping": {
+                "Fully independent": 0.0,
+                "Needs prompting": 1.0,
+                "Requires assistance": 2.0,
+                "Fully dependent": 3.0
+              }
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "What is going on in this picture? Explain it to me.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 5,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "94, 87, 80, 73, 66",
+              "naming": "Car, Tree, Dog",
+              "commands": "Tap the screen",
+              "visuospatial": "8",
+              "memory_cdrsb": "Severe memory loss",
+              "judgment": "Unable to handle",
+              "community": "Does not participate",
+              "home": "Cannot do chores",
+              "personal": "Requires assistance",
+              "delayed_recall": "BIRD, DOG, LAMP"
+            },
+            "cdrsb": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "94, 87, 80, 73, 66",
+              "naming": "Car, Tree, Dog",
+              "commands": "Tap the screen",
+              "visuospatial": "8",
+              "memory_cdrsb": "Severe memory loss",
+              "judgment": "Unable to handle",
+              "community": "Does not participate",
+              "home": "Cannot do chores",
+              "personal": "Requires assistance",
+              "delayed_recall": "BIRD, DOG, LAMP"
+            },
+            "total13": {
+              "orientation": "2023 - Fall",
+              "registration": true,
+              "attention": "94, 87, 80, 73, 66",
+              "naming": "Car, Tree, Dog",
+              "commands": "Tap the screen",
+              "visuospatial": "8",
+              "memory_cdrsb": "Severe memory loss",
+              "judgment": "Unable to handle",
+              "community": "Does not participate",
+              "home": "Cannot do chores",
+              "personal": "Requires assistance",
+              "delayed_recall": "BIRD, DOG, LAMP"
+            }
+          },
+          "scores": {
+            "speech_score": 0.8,
+            "cognitive_score": 0.8055555555555556,
+            "combined_risk": 0.8033333333333335,
+            "risk_label": "High",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.19444444444444442,
+              "attention": 0.3555555555555555,
+              "language": 0.2749999999999999,
+              "orientation": 0.4361111111111111,
+              "executive": 0.11388888888888882
+            }
+          },
+          "speech_analysis": {
+            "score": 0.8,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 5,
+            "cdrsb": 14.0,
+            "total13": 0
+          }
+        },
+        {
+          "session_id": "05e6e750-510f-4e9c-b40d-9c62b100dd2e",
+          "timestamp": "2026-06-01T14:46:08.230390",
+          "test_flow_seed": "d2aa309c-e54f-46bb-967a-43df7cc1c639",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2024 - Summer",
+                "2023 - Fall",
+                "2025 - Winter",
+                "2026 - Spring"
+              ],
+              "correct_answer": "2026 - Spring"
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory)",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "PEN",
+                "CLOCK",
+                "BIRD"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation",
+              "prompt": "Starting from 100, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "92, 85, 78, 71, 64",
+                "94, 87, 80, 73, 66",
+                "93, 85, 78, 71, 64",
+                "93, 86, 79, 72, 65"
+              ],
+              "correct_answer": "93, 86, 79, 72, 65"
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen?",
+              "options": [
+                "COOKIE, STOOL, JAR",
+                "Car, Tree, Dog",
+                "Pen, Book, Clock",
+                "Shoe, Key, Lamp"
+              ],
+              "correct_answer": "COOKIE, STOOL, JAR"
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Stand up",
+                "Clap my hands",
+                "Close my eyes",
+                "Tap the screen"
+              ],
+              "correct_answer": "Close my eyes"
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "6",
+                "5",
+                "4",
+                "8"
+              ],
+              "correct_answer": "5"
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "PHONE, LAMP, FISH",
+                "LAMP, APPLE, TIE",
+                "PEN, CLOCK, BIRD",
+                "SHOE, CHAIR, KEY"
+              ],
+              "correct_answer": "PEN, CLOCK, BIRD"
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Severe memory loss",
+                "Moderate memory loss",
+                "Slight memory loss",
+                "No memory loss"
+              ],
+              "score_mapping": {
+                "No memory loss": 0.0,
+                "Slight memory loss": 1.0,
+                "Moderate memory loss": 2.0,
+                "Severe memory loss": 3.0
+              }
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Fully capable",
+                "Needs some help",
+                "Slight difficulty",
+                "Unable to handle"
+              ],
+              "score_mapping": {
+                "Fully capable": 0.0,
+                "Slight difficulty": 1.0,
+                "Needs some help": 2.0,
+                "Unable to handle": 3.0
+              }
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Rarely participates",
+                "Fully active",
+                "Does not participate",
+                "Slightly reduced"
+              ],
+              "score_mapping": {
+                "Fully active": 0.0,
+                "Slightly reduced": 1.0,
+                "Rarely participates": 2.0,
+                "Does not participate": 3.0
+              }
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Requires assistance",
+                "Fully capable",
+                "Slightly impaired",
+                "Cannot do chores"
+              ],
+              "score_mapping": {
+                "Fully capable": 0.0,
+                "Slightly impaired": 1.0,
+                "Requires assistance": 2.0,
+                "Cannot do chores": 3.0
+              }
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully independent",
+                "Fully dependent",
+                "Requires assistance",
+                "Needs prompting"
+              ],
+              "score_mapping": {
+                "Fully independent": 0.0,
+                "Needs prompting": 1.0,
+                "Requires assistance": 2.0,
+                "Fully dependent": 3.0
+              }
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 4,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2026 - Spring",
+              "registration": true,
+              "attention": "93, 86, 79, 72, 65",
+              "naming": "COOKIE, STOOL, JAR",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "No memory loss",
+              "judgment": "Fully capable",
+              "community": "Fully active",
+              "home": "Fully capable",
+              "personal": "Fully independent",
+              "delayed_recall": "PEN, CLOCK, BIRD"
+            },
+            "cdrsb": {
+              "orientation": "2026 - Spring",
+              "registration": true,
+              "attention": "93, 86, 79, 72, 65",
+              "naming": "COOKIE, STOOL, JAR",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "No memory loss",
+              "judgment": "Fully capable",
+              "community": "Fully active",
+              "home": "Fully capable",
+              "personal": "Fully independent",
+              "delayed_recall": "PEN, CLOCK, BIRD"
+            },
+            "total13": {
+              "orientation": "2026 - Spring",
+              "registration": true,
+              "attention": "93, 86, 79, 72, 65",
+              "naming": "COOKIE, STOOL, JAR",
+              "commands": "Close my eyes",
+              "visuospatial": "5",
+              "memory_cdrsb": "No memory loss",
+              "judgment": "Fully capable",
+              "community": "Fully active",
+              "home": "Fully capable",
+              "personal": "Fully independent",
+              "delayed_recall": "PEN, CLOCK, BIRD"
+            }
+          },
+          "scores": {
+            "speech_score": 0.8,
+            "cognitive_score": 0.0,
+            "combined_risk": 0.32000000000000006,
+            "risk_label": "Low",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 1.0,
+              "attention": 1.0,
+              "language": 1.0,
+              "orientation": 1.0,
+              "executive": 1.0
+            }
+          },
+          "speech_analysis": {
+            "score": 0.8,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 30,
+            "cdrsb": 0.0,
+            "total13": 85
+          }
+        },
+        {
+          "session_id": "cc291e56-9066-4687-833e-50c39fc5bb26",
+          "timestamp": "2026-06-01T15:12:17.648069",
+          "test_flow_seed": "5b044f44-1d85-4722-8030-b5358121553e",
+          "test_flow": [
+            {
+              "id": "orientation",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Orientation \ud83d\udcc5",
+              "prompt": "Which of the following describes the current year and season?",
+              "options": [
+                "2025 - Summer \u2600\ufe0f",
+                "2024 - Winter \u2744\ufe0f",
+                "2024 - Summer \u2600\ufe0f",
+                "2026 - Winter \u2744\ufe0f"
+              ],
+              "correct_answer": "2025 - Summer \u2600\ufe0f"
+            },
+            {
+              "id": "registration",
+              "test_name": "MMSE",
+              "type": "memorize",
+              "title": "Registration (Immediate Memory) \ud83e\udde0",
+              "prompt": "Please read and remember these three words. You will be asked to recall them later.",
+              "data": [
+                "BIRD \ud83d\udc26",
+                "CHAIR \ud83e\ude91",
+                "FISH \ud83d\udc1f"
+              ]
+            },
+            {
+              "id": "attention",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Attention & Calculation \ud83d\udd22",
+              "prompt": "Starting from 92, subtract 7 sequentially. Which sequence is correct?",
+              "options": [
+                "86, 80, 74, 68, 62",
+                "86, 79, 72, 65, 58",
+                "84, 77, 70, 63, 56",
+                "85, 78, 71, 64, 57"
+              ],
+              "correct_answer": "85, 78, 71, 64, 57"
+            },
+            {
+              "id": "naming",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Language & Naming \ud83d\udde3\ufe0f",
+              "prompt": "Which group of objects corresponds to items typically found in a kitchen or a house?",
+              "options": [
+                "LAMP \ud83d\udca1, CAR \ud83d\ude97, KEY \ud83d\udd11",
+                "APPLE \ud83c\udf4e, BOAT \u26f5, TREE \ud83c\udf33",
+                "BIRD \ud83d\udc26, CHAIR \ud83e\ude91, LAMP \ud83d\udca1",
+                "COOKIE \ud83c\udf6a, COUNTER \ud83e\udeb5, SINK \ud83d\udeb0"
+              ],
+              "correct_answer": "COOKIE \ud83c\udf6a, COUNTER \ud83e\udeb5, SINK \ud83d\udeb0"
+            },
+            {
+              "id": "commands",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Following Commands \u270d\ufe0f",
+              "prompt": "Read the following command: 'Close your eyes'. What action should you perform?",
+              "options": [
+                "Stand up \ud83e\uddcd",
+                "Tap the screen \ud83d\udcf1",
+                "Close my eyes \ud83d\ude48",
+                "Clap my hands \ud83d\udc4f"
+              ],
+              "correct_answer": "Close my eyes \ud83d\ude48"
+            },
+            {
+              "id": "visuospatial",
+              "test_name": "MMSE",
+              "type": "multiple_choice",
+              "title": "Visuospatial Ability \ud83d\udcd0",
+              "prompt": "Imagine drawing two intersecting pentagons. How many angles are inside a single pentagon?",
+              "options": [
+                "6",
+                "8",
+                "4",
+                "5"
+              ],
+              "correct_answer": "5"
+            },
+            {
+              "id": "delayed_recall",
+              "test_name": "TOTAL13",
+              "type": "multiple_choice",
+              "title": "Delayed Recall \u23f3",
+              "prompt": "Which of these were the three words you were asked to remember earlier?",
+              "options": [
+                "BIRD \ud83d\udc26, CHAIR \ud83e\ude91, FISH \ud83d\udc1f",
+                "BOOK \ud83d\udcd6, STAR \u2b50, HOUSE \ud83c\udfe0",
+                "LAMP \ud83d\udca1, STAR \u2b50, BOAT \u26f5",
+                "PHONE \ud83d\udcf1, BOAT \u26f5, SHOE \ud83d\udc5e"
+              ],
+              "correct_answer": "BIRD \ud83d\udc26, CHAIR \ud83e\ude91, FISH \ud83d\udc1f"
+            },
+            {
+              "id": "memory_cdrsb",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Memory Assessment",
+              "prompt": "How well do you remember recent events?",
+              "options": [
+                "Severe memory loss",
+                "Slight memory loss",
+                "No memory loss",
+                "Moderate memory loss"
+              ],
+              "score_mapping": {
+                "No memory loss": 0.0,
+                "Slight memory loss": 1.0,
+                "Moderate memory loss": 2.0,
+                "Severe memory loss": 3.0
+              }
+            },
+            {
+              "id": "judgment",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Judgment & Problem Solving",
+              "prompt": "Are you able to handle everyday problems and emergencies?",
+              "options": [
+                "Slight difficulty",
+                "Needs some help",
+                "Unable to handle",
+                "Fully capable"
+              ],
+              "score_mapping": {
+                "Fully capable": 0.0,
+                "Slight difficulty": 1.0,
+                "Needs some help": 2.0,
+                "Unable to handle": 3.0
+              }
+            },
+            {
+              "id": "community",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Community Affairs",
+              "prompt": "Are you actively participating in social or community activities?",
+              "options": [
+                "Slightly reduced",
+                "Does not participate",
+                "Rarely participates",
+                "Fully active"
+              ],
+              "score_mapping": {
+                "Fully active": 0.0,
+                "Slightly reduced": 1.0,
+                "Rarely participates": 2.0,
+                "Does not participate": 3.0
+              }
+            },
+            {
+              "id": "home",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Home & Hobbies",
+              "prompt": "Are you keeping up with your chores at home and your hobbies?",
+              "options": [
+                "Slightly impaired",
+                "Requires assistance",
+                "Cannot do chores",
+                "Fully capable"
+              ],
+              "score_mapping": {
+                "Fully capable": 0.0,
+                "Slightly impaired": 1.0,
+                "Requires assistance": 2.0,
+                "Cannot do chores": 3.0
+              }
+            },
+            {
+              "id": "personal",
+              "test_name": "CDRSB",
+              "type": "multiple_choice",
+              "title": "Personal Care",
+              "prompt": "Are you fully independent in dressing and washing yourself?",
+              "options": [
+                "Fully independent",
+                "Fully dependent",
+                "Needs prompting",
+                "Requires assistance"
+              ],
+              "score_mapping": {
+                "Fully independent": 0.0,
+                "Needs prompting": 1.0,
+                "Requires assistance": 2.0,
+                "Fully dependent": 3.0
+              }
+            },
+            {
+              "id": "speech_task",
+              "test_name": "Speech Assessment",
+              "type": "speech",
+              "title": "Speech & Picture Description",
+              "prompt": "Tell a story about what is happening in this image.",
+              "image_url": "https://alz.org/media/Documents/cookie-theft.jpg"
+            }
+          ],
+          "speech_input": {
+            "transcript": "Audio recorded successfully",
+            "duration": 2,
+            "word_count": 3
+          },
+          "cognitive_answers": {
+            "mmse": {
+              "orientation": "2026 - Winter \u2744\ufe0f",
+              "registration": true,
+              "attention": "85, 78, 71, 64, 57",
+              "naming": "APPLE \ud83c\udf4e, BOAT \u26f5, TREE \ud83c\udf33",
+              "commands": "Close my eyes \ud83d\ude48",
+              "visuospatial": "4",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Fully capable",
+              "community": "Rarely participates",
+              "home": "Requires assistance",
+              "personal": "Requires assistance",
+              "delayed_recall": "PHONE \ud83d\udcf1, BOAT \u26f5, SHOE \ud83d\udc5e"
+            },
+            "cdrsb": {
+              "orientation": "2026 - Winter \u2744\ufe0f",
+              "registration": true,
+              "attention": "85, 78, 71, 64, 57",
+              "naming": "APPLE \ud83c\udf4e, BOAT \u26f5, TREE \ud83c\udf33",
+              "commands": "Close my eyes \ud83d\ude48",
+              "visuospatial": "4",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Fully capable",
+              "community": "Rarely participates",
+              "home": "Requires assistance",
+              "personal": "Requires assistance",
+              "delayed_recall": "PHONE \ud83d\udcf1, BOAT \u26f5, SHOE \ud83d\udc5e"
+            },
+            "total13": {
+              "orientation": "2026 - Winter \u2744\ufe0f",
+              "registration": true,
+              "attention": "85, 78, 71, 64, 57",
+              "naming": "APPLE \ud83c\udf4e, BOAT \u26f5, TREE \ud83c\udf33",
+              "commands": "Close my eyes \ud83d\ude48",
+              "visuospatial": "4",
+              "memory_cdrsb": "Moderate memory loss",
+              "judgment": "Fully capable",
+              "community": "Rarely participates",
+              "home": "Requires assistance",
+              "personal": "Requires assistance",
+              "delayed_recall": "PHONE \ud83d\udcf1, BOAT \u26f5, SHOE \ud83d\udc5e"
+            }
+          },
+          "scores": {
+            "speech_score": 0.5,
+            "cognitive_score": 0.4722222222222222,
+            "combined_risk": 0.48333333333333334,
+            "risk_label": "Moderate",
+            "confidence": 0.85,
+            "domain_breakdown": {
+              "memory": 0.5277777777777778,
+              "attention": 0.6222222222222222,
+              "language": 0.575,
+              "orientation": 0.6694444444444445,
+              "executive": 0.4805555555555555
+            }
+          },
+          "speech_analysis": {
+            "score": 0.5,
+            "features": {
+              "type_token_ratio": 0.65,
+              "avg_sentence_length": 12.4,
+              "pause_ratio_mock": 0.15
+            }
+          },
+          "cognitive_raw_scores": {
+            "mmse": 15,
+            "cdrsb": 8.0,
+            "total13": 0
+          }
+        }
+      ]
+    },
+    "7ea1ed09-0cbc-4e08-8f68-c040fee2e857": {
+      "profile": {
+        "email": "chendichandu@gmaill.comm",
+        "hashed_password": "$2b$12$gEjbdFKjoylWeFbvjwUXZuS4Pqsii/NdMFRMuqLIhpO6x7Lpc24Ha",
+        "onboarded": false,
+        "created_at": "2026-06-01T14:47:39.970241"
+      },
+      "sessions": []
+    },
+    "416ac147-3195-453d-9d91-6b513a10fd84": {
+      "profile": {
+        "email": "chendichandu.com@gmail.com",
+        "hashed_password": "$2b$12$mvr9NJzCMM4lggBMxGigh.qebTgaitYYRUX7ztYyot7p5INi0EuFS",
+        "onboarded": true,
+        "created_at": "2026-06-01T15:17:23.930805",
+        "name": "Chendi Chandu",
+        "age": 21,
+        "gender": "male",
+        "education": "bachelors",
+        "language": "English",
+        "memory_concerns": "mild",
+        "emergency_name": "sai",
+        "emergency_contact": "+91 8978787980",
+        "consent": true
+      },
+      "sessions": []
+    }
+  }
+}
